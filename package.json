@@ -5,6 +5,7 @@
   "scripts": {
     "lint": "eslint packages/**/*.js",
     "release": "lerna exec --concurrency 1 -- npx semantic-release -e semantic-release-monorepo",
+    "npm_publish": "lerna publish from-git",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lerna:bootstrap": "lerna bootstrap",
     "prepare": "husky install"
