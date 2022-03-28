@@ -1,0 +1,30 @@
+{
+  "name": "@veriff/code-style",
+  "version": "0.2.0",
+  "description": "Veriff style guide and shared linters configurations",
+  "scripts": {
+    "lint": "eslint packages/**/*.js",
+    "release": "lerna exec --concurrency 1 -- npx semantic-release -e semantic-release-monorepo",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lerna:bootstrap": "lerna bootstrap",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "Veriff",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "@semantic-release/git": "^10.0.1",
+    "@veriff/eslint-config": "./packages/eslint-config",
+    "eslint": "^7.23.0",
+    "husky": "^7.0.1",
+    "lerna": "^4.0.0",
+    "semantic-release": "^18.0.1",
+    "semantic-release-monorepo": "^7.0.4",
+    "typescript": "^4.0.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

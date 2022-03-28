@@ -1,0 +1,3 @@
+{
+  "extends": "@veriff/eslint-config/base-javascript"
+}
