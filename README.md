@@ -5,7 +5,7 @@ status: "internal"
 type: "tooling"
 ---
 
-# Veriff Code Style
+# Veriff's Code Style
 
 This repository contains configurations for different linters that apply Veriff's code style rules and best practices.
 
@@ -26,9 +26,9 @@ linters that enforce the best practices and code style conventions.
 
 ### JavaScript / TypeScript
 
-We prefer TypeScript to JavaScript because of its strict typing which helps a lot to avoid bugs.
+We prefer TypeScript over JavaScript because strict typing allows to avoid entire class of bugs as well as simplify maintenance.
 
-We follow Airbnb style guide for JavaScript / TypeScript / React projects as well as some necessary best practices
+We follow [Airbnb style guide](https://github.com/airbnb/javascript) for JavaScript / TypeScript / React projects as well as some necessary best practices
 included into `eslint/recommended` and `typescript-eslint/recommended` ruleset-s.
 
 In addition to enforcing the standard code style, these rules are meant to catch common problems and insist on following
@@ -51,9 +51,8 @@ in [the eslint-config package's README](packages/eslint-config/README.md).
 
 ### Styles
 
-The most important rule here is to use [Genoma](https://genoma.veriff.design/) as much as possible. Don't reinvent the
-wheel and try to utilize Genoma components for making both layout and UI. The goal is to make writing CSS an exception,
-and you could help to achieve it with [contributing to Genoma](https://github.com/Veriff/genoma)!
+The most important rule here is to use our design system **Genoma** as much as possible, it will simplify 
+the development process as well as improve design consistency across different products.
 
 In case you have to do some custom styles, at first, choose *SCSS Modules* over plain CSS. Make it compliant
 with [SCSS Guidelines](https://sass-guidelin.es/). It is useful and reasonable.
