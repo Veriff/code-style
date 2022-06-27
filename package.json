@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "Veriff",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
