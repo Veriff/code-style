@@ -1,10 +1,3 @@
----
-owner: "Developer Experience"
-description: "Veriff style guide and shared linters configurations"
-status: "internal"
-type: "tooling"
----
-
 # Veriff's Code Style
 
 This repository contains configurations for different linters that apply Veriff's code style rules and best practices.
