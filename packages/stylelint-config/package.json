@@ -1,13 +1,13 @@
 {
   "name": "@veriff/stylelint-config",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Shared stylelint configuration.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Artem Tamoian <artem.tamoian@veriff.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "peerDependencies": {
     "stylelint": "^14.1.0"
   },
