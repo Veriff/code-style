@@ -1,6 +1,6 @@
 {
   "name": "@veriff/code-style",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Veriff style guide and shared linters configurations",
   "scripts": {
     "lint": "eslint packages/**/*.js",
