@@ -1,13 +1,13 @@
 {
   "name": "@veriff/eslint-config",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Shared ESLint configurations.",
   "main": "base.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Artem Tamoian <artem.tamoian@veriff.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "peerDependencies": {
     "eslint": ">=7.5.0"
   },
