@@ -12,6 +12,7 @@
   "author": "Artem Tamoian <artem.tamoian@veriff.com>",
   "license": "MIT",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }
