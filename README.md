@@ -8,9 +8,9 @@ To apply this code style in your project you need to configure necessary liters.
 ESLint, Stylelint, and Prettier with extensive guides how to set them up for any kind of project. Check README's of the
 packages you need:
 
-- [@veriff/eslint-config](packages/eslint-config/README.md)
-- [@veriff/stylelint-config](packages/stylelint-config/README.md)
-- [@veriff/prettier-config](packages/prettier-config/README.md)
+- [@veriff/eslint-config](packages/eslint-config/README.md) [[NPM](https://www.npmjs.com/package/@veriff/eslint-config)]
+- [@veriff/stylelint-config](packages/stylelint-config/README.md) [[NPM](https://www.npmjs.com/package/@veriff/stylelint-config)]
+- [@veriff/prettier-config](packages/prettier-config/README.md) [[NPM](https://www.npmjs.com/package/@veriff/prettier-config)]
 
 ## Guidelines
 
