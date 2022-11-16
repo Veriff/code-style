@@ -18,7 +18,7 @@ module.exports = {
     // Require following 4(four!)-point grid
     'plugin/8-point-grid': {
       base: 4,
-      allowlist: ['2px', '1px', '-1px', '-2px'],
+      allowlist: ['6px', '2px', '1px', '-1px', '-2px', '-6px'],
       ignorelist: ['width', 'height'],
     },
 
