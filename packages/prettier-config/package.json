@@ -1,13 +1,13 @@
 {
   "name": "@veriff/prettier-config",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Shared prettier configuration.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "prettier": ">=2.0.0"
+    "prettier": ">=2.8.6"
   },
   "author": "Artem Tamoian <artem.tamoian@veriff.com>",
   "license": "MIT",
