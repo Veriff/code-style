@@ -1,3 +1,12 @@
+---
+owner: "Quality Engineering"
+description: "Configurations for different linters that apply Veriff's code style rules and best practices."
+status: "internal"
+criticality: "none"
+type: "configuration"
+---
+
+
 # Veriff's Code Style
 
 This repository contains configurations for different linters that apply Veriff's code style rules and best practices.
