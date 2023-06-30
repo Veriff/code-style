@@ -10,5 +10,5 @@ metadata:
   - javascript
 spec:
   type: library
-  owner: developer-experience
+  owner: quality-engineering
   lifecycle: public
