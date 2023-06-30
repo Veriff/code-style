@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1beta1
+kind: Component
+metadata:
+  name: code-style
+  description: Veriff style guide and shared linters configurations
+  annotations:
+    veriff.com/criticality: none
+    github.com/project-slug: Veriff/code-style
+  tags:
+  - javascript
+spec:
+  type: library
+  owner: quality-engineering
+  lifecycle: public
