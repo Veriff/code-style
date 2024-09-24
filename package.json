@@ -6,7 +6,7 @@
     "lint": "eslint packages/**/*.js",
     "release": "lerna exec --concurrency 1 -- npx semantic-release -e semantic-release-monorepo",
     "npm_publish": "lerna publish from-git",
-    "test": "echo \"Warning: no test!\" && exit 0",
+    "test": "echo \"Warning: there are no tests!\" && exit 0",
     "lerna:bootstrap": "npm install",
     "prepare": "husky"
   },
