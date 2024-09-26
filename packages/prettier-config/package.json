@@ -1,6 +1,6 @@
 {
   "name": "@veriff/prettier-config",
-  "version": "3.3.2",
+  "version": "2.1.2",
   "description": "Shared prettier configuration.",
   "main": "index.js",
   "scripts": {

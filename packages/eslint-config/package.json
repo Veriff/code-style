@@ -1,6 +1,6 @@
 {
   "name": "@veriff/eslint-config",
-  "version": "3.3.2",
+  "version": "2.2.3",
   "description": "Shared ESLint configurations.",
   "main": "base.js",
   "scripts": {

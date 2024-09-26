@@ -18,7 +18,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org/'
       - run: npm ci
       - run: npm run lint
-      - run: npm run release
+      - run: npm run release || exit 0
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
           GITHUB_TOKEN: ${{secrets.GIT_TOKEN}}

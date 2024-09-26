@@ -1,10 +1,10 @@
 {
   "name": "@veriff/code-style",
-  "version": "3.3.2",
+  "version": "3.3.3",
   "description": "Veriff style guide and shared linters configurations",
   "scripts": {
     "lint": "eslint packages/**/*.js",
-    "release": "lerna exec --concurrency 1 -- npx semantic-release -e semantic-release-monorepo",
+    "release": "lerna exec --concurrency 1 -- npx semantic-release -e semantic-release-monorepo --debug",
     "publish": "lerna publish from-git",
     "prepare": "husky"
   },
